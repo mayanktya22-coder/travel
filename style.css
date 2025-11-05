@@ -55,8 +55,10 @@ body {
 .nav-bar-middle-text2 {
     color: white;
     font-size: 130px;
-    padding-top: 20px;
+    padding-top: 0px;
     font-family: "futura";
+    margin-bottom: 10px;
+
 }
 
 .nav-bar-middle {
@@ -69,5 +71,30 @@ body {
     text-decoration: none;
     color: white;
     margin-right: 20px;
+
+}
+
+.nav-button {
+    padding: 10px 20px;
+    font-size: 18px;
+    color: white;
+    background-color: #ff5733;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+.nav-button:hover {
+    background-color: #ff784e;
+}
+
+.nav-bar-right {
+    display: flex;
+
+    width: 30%;
+    padding: 10px;
+    display: flex;
+    margin-left: 590px;
 
 }
